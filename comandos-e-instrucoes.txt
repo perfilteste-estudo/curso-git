@@ -1,0 +1,51 @@
+# Configuração do usuário
+git config --global user.name "<nome-do-usuário>"
+git config --global user.email "<email-do-usuário>"
+git config --list
+
+# Criação de um repositório local
+git init
+dir -a
+
+# Adicionando alterações
+git status
+git add <nome-do-arquivo>
+git add --all
+git add -A
+git add .
+
+# Salvando alterações
+git commit -m "<mensagem-do-commit>"
+
+# Funcionamento do GIT
+
+Working directory -> Pasta onde estou trabalhando
+- Untracked (não rastreado)
+	* Modificados
+	* Excluídos
+	* Adicionados
+
+------------------------ git add ------------------------
+
+Staging area (staged) -> Área de preparação
+- Tracked (rastreado)
+	* Preparado para ser versionado
+
+----------------------- git commit -----------------------
+
+Committed -> Versão criada
+- Commitado (versionado)
+	* Arquivos salvos 
+
+# Visualizar alterações
+
+-> Alterações not staged (antes do add)
+git diff
+
+-> Todas as alterações desde o último commit (antes ou depois do add)
+git diff --cached
+git diff --staged
+
+# 
+
+
