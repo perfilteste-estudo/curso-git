@@ -2,10 +2,12 @@
 git config --global user.name "<nome-do-usuário>"
 git config --global user.email "<email-do-usuário>"
 git config --list
+__________________________________________________________
 
 # Criação de um repositório local
 git init
 dir -a
+__________________________________________________________
 
 # Adicionando alterações
 git status
@@ -13,9 +15,11 @@ git add <nome-do-arquivo>
 git add --all
 git add -A
 git add .
+__________________________________________________________
 
 # Salvando alterações
 git commit -m "<mensagem-do-commit>"
+__________________________________________________________
 
 # Funcionamento do GIT
 
@@ -36,16 +40,43 @@ Staging area (staged) -> Área de preparação
 Committed -> Versão criada
 - Commitado (versionado)
 	* Arquivos salvos 
+__________________________________________________________
 
 # Visualizar alterações
 
 -> Alterações not staged (antes do add)
 git diff
 
--> Todas as alterações desde o último commit (antes ou depois do add)
+-> Alterações staged (depois do add)
 git diff --cached
 git diff --staged
 
-# 
+OBS: Para sair do diff, pressione q
+__________________________________________________________
 
+# Histórico de alterações
+
+
+__________________________________________________________
+
+# Usando commits anteriores
+
+
+__________________________________________________________
+
+# Desfazendo alterações
+
+
+__________________________________________________________
+
+# Desfazendo alterações não rastreadas
+
+__________________________________________________________
+
+# Ignorando arquivos
+
+
+__________________________________________________________
+
+# Clonando repositórios
 
