@@ -56,6 +56,32 @@ __________________________________________________________
 
 # Histórico de alterações
 
+> Todas as alterações em várias linhas cada uma
+git log
+
+-> Saída
+>> Na primeira linha, hash de identificação do commit
+>>>> HEAD é um ponteiro que aponta para a última modificação em uma branch
+>> Na segunda linha, autor do commit
+>> Na terceira linha, data e hora do commit
+>> Por último, mensagem do commit
+
+commit 726530495b2fb5f963b0c944b67585a9c69e1bb2 (HEAD -> master)
+Author: Jussara Rodrigues <jussara.rodrigues10@hotmail.com>
+Date:   Mon Sep 7 16:51:41 2020 -0300
+
+    Corrigir explicacoes do uso do git diff
+
+> Todas as alterações em uma linha cada uma
+git log --oneline
+-> Saída
+7265304 (HEAD -> master) Corrigir explicacoes do uso do git diff
+a41f21c Adicionar arquivo de comandos e instrucoes
+
+
+
+OBS: Alterações são listadas das mais recentes para mais
+antigas.
 
 __________________________________________________________
 
