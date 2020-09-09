@@ -78,10 +78,50 @@ git log --oneline
 7265304 (HEAD -> master) Corrigir explicacoes do uso do git diff
 a41f21c Adicionar arquivo de comandos e instrucoes
 
+> Faz a listagem de logs limitado a N registros
+git log -n
+
+> Mostra as mudanças de cada arquivo de acordo com o commit. 
+> É como se fosse feito um git diff em cada commit
+git log -p
+
+> Mostra a quantidade de alterações em cada arquivo em formato visual, 
+> sem mostrar as mudanças específicas
+git log --stat
+
+> Mostra somente a quantidade de alteração de forma menos visual que --stat
+git log --shortstat
+
+> Mostra a lista de arquivos modificados em cada commit
+git log --name-only
+
+> Mostra a lista de arquivos modificados em cada commit e para cada arquivo 
+mostra as letras M, A ou D.
+> M - Arquivo modificado > A - Arquivo adicionado > D - Arquivo removido
+git log --name-status 
+
+> Faz exatamente igual ao comando git log, porém mostra somente poucos 
+> caracteres do commit, ao invés de todos os 40.
+git log --abbrev-commit
+
+> Mostra os commits com a data relativa comparado a data do dia atual. 
+> Ao invés de mostrar a data em que foi feita, mostra quanto tempo atrás 
+> foi feito. Ex: 2 dias atrás
+git log --relative-date
+
+> Mostra apenas os commits do autor especificado
+git log --author "<nome-do-autor>"
+
+> Mostra os commits realizados após a data especificada
+git log --since="<date>"
+git log --after="<date>"
+
+> Mostra os commits realizados antes a data especificada
+git log --until="<date>" 
+git log --before="<date>"
 
 
-OBS: Alterações são listadas das mais recentes para mais
-antigas.
+OBS: Commits são listados dos mais recentes para mais antigos.
 
 __________________________________________________________
 
