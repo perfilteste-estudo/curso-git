@@ -127,6 +127,16 @@ __________________________________________________________
 
 # Usando commits anteriores
 
+> O repositório volta ao estado do commit informado (modo detached HEAD)
+> O comando faz o HEAD apontar para o commit informado (não é definitivo)
+> É útil quando queremos verificar em que momento o erro no projeto surgiu
+git checkout <hash-do-commit>
+
+> Para sair desse commit e voltar ao commit atual
+> Nome da branch -> master
+git checkout <nome-da-branch>
+
+OBS: Basta escrever os 6 primeiros caracteres do hash.
 
 __________________________________________________________
 
