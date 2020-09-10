@@ -198,4 +198,18 @@ você trabalhe em projetos colaborativos com desenvolvedores
 de todo o mundo, planeje seus projetos e acompanhe o trabalho.
 __________________________________________________________
 
-# 
+# Criando repositório
+
+> + Novo repositório (canto superior direito)
+> Repository name (não utilizar espaços, caracteres especiais, etc)
+> Description (opcional)
+> Visibilidade (Public ou Private)
+> Initialize with README (opcional)
+> Add gitignore (opcional) - Dá pra escolher algum arquivo pronto, a depender do projeto
+> Add a license (opcional)
+> Create repository
+
+OBS: Pode-se criar arquivos direto ou fazer upload de algum já existente
+
+
+
