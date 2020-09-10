@@ -220,12 +220,20 @@ git remote add origin <url-remota-do-repositorio-github>
 
 > Para verificar se foi conectado
 git remote -v
-
 __________________________________________________________
 
 # Versionando alterações no servidor
 
+> Mandar as alterações commitadas para o servidor
+git push -u origin master
 git push
+
+__________________________________________________________
+
+# Baixando a última versão do repositório
+
+> Vê se a versão no computador está desatualizada e baixa a última versão
+git pull
 
 
 
