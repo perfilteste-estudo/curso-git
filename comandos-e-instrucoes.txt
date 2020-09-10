@@ -165,6 +165,16 @@ __________________________________________________________
 
 # Ignorando arquivos
 
+> Utilizar o arquivo .gitignore (essa é a extensão, o arquivo não possui
+> nome) para ignorar arquivos que não precisam ser versionados
+
+> Para criar via cmd:
+>> Criar um arquivo qualquer txt no diretório
+>> Alterar via cmd o nome para .gitignore através do comando
+ren <nome-atual-do-arquivo> .gitignore
+
+>Repositório no github com arquivos .gitignore prontos para vários tipos
+> de projetos: https://github.com/github/gitignore
 
 __________________________________________________________
 
