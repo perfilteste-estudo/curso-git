@@ -122,7 +122,6 @@ git log --before="<date>"
 
 
 OBS: Commits são listados dos mais recentes para mais antigos.
-
 __________________________________________________________
 
 # Usando commits anteriores
@@ -137,15 +136,19 @@ git checkout <hash-do-commit>
 git checkout <nome-da-branch>
 
 OBS: Basta escrever os 6 primeiros caracteres do hash.
-
 __________________________________________________________
 
-# Desfazendo alterações
+# Desfazendo alterações rastreadas
 
+> Desfaz todas as alterações realizadas no arquivo desde o último commit
+git checkout <nome-do-arquivo>
 
+> Desfazer todas as alterações no repositório até o último commit
+git reset --hard
 __________________________________________________________
 
 # Desfazendo alterações não rastreadas
+
 
 __________________________________________________________
 
