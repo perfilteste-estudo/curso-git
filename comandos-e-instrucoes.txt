@@ -210,6 +210,22 @@ __________________________________________________________
 > Create repository
 
 OBS: Pode-se criar arquivos direto ou fazer upload de algum já existente
+__________________________________________________________
+
+# Conectando um repositório local ao github
+
+> Conectar um repositório local a um repositório no github
+> Ex: git remote add origin https://github.com/jussararodrigues/curso-git.git
+git remote add origin <url-remota-do-repositorio-github>
+
+> Para verificar se foi conectado
+git remote -v
+
+__________________________________________________________
+
+# Versionando alterações no servidor
+
+git push
 
 
 
