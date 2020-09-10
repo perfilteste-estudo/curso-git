@@ -186,3 +186,16 @@ git clone <nome-do-repositorio-a-ser-clonado> <nome-da-pasta-onde-será-adiciona
 > Do github. Ex -> Estando na pasta em que deseja colar o repositório:
 > git clone https://github.com/jussararodrigues/Programacao-1.git
 git clone <url-remota-do-repositorio-a-ser-clonado>
+
+__________________________________________________________
+
+# GITHUB
+
+É um sistema de gerenciamento de projetos e versões de códigos assim 
+como uma plataforma de rede social criado para desenvolvedores. 
+Mas para que o GitHub é utilizado? Entre outras coisas, ele permite que 
+você trabalhe em projetos colaborativos com desenvolvedores 
+de todo o mundo, planeje seus projetos e acompanhe o trabalho.
+__________________________________________________________
+
+# 
