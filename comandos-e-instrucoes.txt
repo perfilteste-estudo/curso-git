@@ -180,3 +180,9 @@ __________________________________________________________
 
 # Clonando repositórios
 
+> Localmente. Ex -> Estando fora da pasta Git -> git clone Git git_teste
+git clone <nome-do-repositorio-a-ser-clonado> <nome-da-pasta-onde-será-adicionado>
+
+> Do github. Ex -> Estando na pasta em que deseja colar o repositório:
+> git clone https://github.com/jussararodrigues/Programacao-1.git
+git clone <url-remota-do-repositorio-a-ser-clonado>
