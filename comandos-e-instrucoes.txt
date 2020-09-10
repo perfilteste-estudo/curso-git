@@ -138,7 +138,7 @@ git checkout <nome-da-branch>
 OBS: Basta escrever os 6 primeiros caracteres do hash.
 __________________________________________________________
 
-# Desfazendo alterações rastreadas
+# Desfazendo alterações rastreadas (tracked) - pós add
 
 > Desfaz todas as alterações realizadas no arquivo desde o último commit
 git checkout <nome-do-arquivo>
@@ -147,8 +147,19 @@ git checkout <nome-do-arquivo>
 git reset --hard
 __________________________________________________________
 
-# Desfazendo alterações não rastreadas
+# Desfazendo alterações não rastreadas (untracked) - antes do add
 
+> Vai exibir os arquivos a serem excluídos sem de fato os excluir
+git clean -n
+
+> Dá início de fato à exclusão de arquivos não monitorados do diretório atual.
+> Ela não vai remover pastas ou arquivos não monitorados especificados pelo .gitignore
+git clean -f
+
+> A opção -d informa ao git clean que você também quer excluir quaisquer 
+> diretórios não monitorados: por padrão, ele vai ignorar os diretórios
+> -dn exibe arquivos e diretórios sem de fato excluir e -df os exclui
+git clean <-dn ou -df>
 
 __________________________________________________________
 
