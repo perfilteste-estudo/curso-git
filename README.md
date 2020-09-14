@@ -1,1 +1,1 @@
-# Curso de Git e Github - Udeym
+# Curso de Git e Github - Udemy
