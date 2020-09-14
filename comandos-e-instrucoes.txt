@@ -183,8 +183,8 @@ __________________________________________________________
 > Localmente. Ex -> Estando fora da pasta Git -> git clone Git git_teste
 git clone <nome-do-repositorio-a-ser-clonado> <nome-da-pasta-onde-será-adicionado>
 
-> Do github. Ex -> Estando na pasta em que deseja colar o repositório:
-> git clone https://github.com/jussararodrigues/Programacao-1.git
+> Do github. Ex -> Estando na pasta em que deseja colar o repositório.
+> Ex: git clone https://github.com/jussararodrigues/Programacao-1.git
 git clone <url-remota-do-repositorio-a-ser-clonado>
 
 __________________________________________________________
@@ -235,5 +235,21 @@ __________________________________________________________
 > Vê se a versão no computador está desatualizada e baixa a última versão
 git pull
 
+__________________________________________________________
+
+# Star, Fork e Pull Request
+
+> Star -> Favoritar um repositório, deixá-lo de fácil acesso.
+> É possível também marcar a opção de ser notificado caso hajam novas releases.
+
+> Fork -> Fazer uma cópia de um repositório para o seu perfil.
+> Todo o histórico do projeto, igual o original.
+> A partir do momento que faço um fork, posso fazer alterações no mesmo,
+> na cópia no meu perfil.
+> Se eu apenas clonar o repositório no meu computador, não poderei
+> versionar modificações, pois não tenho permissão.
+
+> Pull Request -> Solicitação para incluir as suas modificações no
+> repositório original.
 
 
